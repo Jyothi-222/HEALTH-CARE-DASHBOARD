@@ -1,0 +1,105 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.bing.com/ck/a?!&&p=217f65483302eb6fJmltdHM9MTcxOTYxOTIwMCZpZ3VpZD0wNzg3OTNhNi1jYmQ2LTYxMmQtM2YzNC04MDU0Y2EwMzYwOTAmaW5zaWQ9NTY0NA&ptn=3&ver=2&hsh=3&fclid=078793a6-cbd6-612d-3f34-8054ca036090&u=a1L2ltYWdlcy9zZWFyY2g_cT1oZWFsdGhjYXJlJTIwbG9nbyZGT1JNPUlRRlJCQSZpZD02QkYzNThEMTkxNTRBQjcwM0E3NTc3RURGNUYzOUQ5ODRGRENFMTU3&ntb=1');
+    }
+
+.container, .dashboard-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard styling */
+.dashboard-container {
+    display: flex;
+    width: 800px;
+}
+
+aside {
+    width: 200px;
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin-bottom: 10px;
+}
+
+aside nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+aside nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
